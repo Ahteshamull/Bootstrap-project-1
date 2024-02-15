@@ -25,6 +25,7 @@ header {
   color: rgba(24, 24, 24, 0.7);
   max-width: 542px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .container {
   max-width: 1170px;
@@ -79,4 +80,47 @@ header {
 /* =========service======= */
 #Service {
   margin-top: 83px;
+  margin-bottom: 200px;
+}
+.service_icon {
+  border: 1px solid var(--primary);
+  font-size: 37px;
+  padding: 17px;
+  border-radius: 10px;
+  color: var(--primary);
+}
+.service_heading {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--black);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.service_pera {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(24, 24, 24, 0.7);
+  max-width: 268px;
+}
+.service_item {
+  border: 1px solid rgb(255, 255, 255);
+  max-width: 370px;
+  padding: 63px 48px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+.service_item:hover {
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 1);
+}
+.service_item:hover .service_icon {
+  background: var(--primary);
+  color: var(--white);
+  transition: 0.4s;
+}
+.item_box {
+  row-gap: 30px;
 }
