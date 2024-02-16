@@ -80,7 +80,7 @@ header {
 /* =========service======= */
 #Service {
   margin-top: 83px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 .service_icon {
   border: 1px solid var(--primary);
@@ -123,4 +123,46 @@ header {
 }
 .item_box {
   row-gap: 30px;
+}
+/* ========portfolio========= */
+#portfolio {
+}
+.portfolioimg_box {
+  position: relative;
+}
+.portfolioimg_box:hover .protfoliooverlay {
+  height: 113px;
+}
+.protfoliooverlay {
+  width: 213px;
+  height: 0px;
+  background: var(--primary);
+  position: absolute;
+  bottom: 19px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.4s;
+}
+.overlyh2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 27px;
+  margin-top: 25px;
+}
+.protfoliooverlay a {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 27px;
+}
+.wrappwer {
+  row-gap: 30px;
+}
+/* ==========member===== */
+#member {
+  margin-bottom: 200px;
+  margin-top: 100px;
 }
