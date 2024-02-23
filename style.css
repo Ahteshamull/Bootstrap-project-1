@@ -208,7 +208,7 @@ header {
 }
 /* ==========customer======== */
 #customer {
-  margin-bottom: 100px;
+  margin-bottom: 142px;
 }
 .customer__titleheading {
   font-size: 40px;
@@ -265,4 +265,126 @@ header {
   right: 30px;
   font-size: 63px;
   color: rgba(89, 86, 232, 0.102);
+}
+/* ============news========== */
+#news {
+  margin-bottom: 100px;
+}
+.news__item__wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 19px;
+  margin-bottom: 10px;
+}
+.news__item__icon {
+  display: flex;
+  gap: 10px;
+}
+.news__item__icon2 {
+  display: flex;
+  gap: 10px;
+}
+.news__item__iconh2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5d5d5d;
+}
+.news__item__iconh3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5d5d5d;
+}
+.news__item__title__heading {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  max-width: 271px;
+  color: var(--black);
+}
+.news__item__title__pera {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 300px;
+  color: #5d5d5d;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.news__item__title a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--primary);
+  margin-bottom: 46px;
+}
+.news__item {
+  border: #e3e3e3 1px solid;
+  border-radius: 10px;
+  padding: 17px 19px 46px;
+}
+/* ============footer========== */
+#footer__part {
+  margin-bottom: 100px;
+  background: rgba(89, 86, 232, 0.102);
+  padding: 100px 100px;
+}
+.footer__logo__pera {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  max-width: 300px;
+  color: #5d5d5d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.icon__wrapper {
+  display: flex;
+  gap: 15px;
+}
+.fb_icon {
+  color: var(--primary);
+  background: #ffffff;
+  border-radius: 50%;
+  width: 42px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.t_icon {
+  color: var(--primary);
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  font-size: 18px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+/* .footer__part__contact {
+  display: flex;
+  justify-content: space-between;
+} */
+.contact {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #181818;
+}
+.contact__a {
+  text-decoration: none;
+  color: #5d5d5d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.contact__infow {
+  display: flex;
 }
